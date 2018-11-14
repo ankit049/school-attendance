@@ -53,6 +53,16 @@ class Attendance extends React.Component {
                 <td>Ankit</td>
                 <td>P</td>
               </tr>
+              <tr>
+                <td>2</td>
+                <td>John</td>
+                <td>A</td>
+              </tr>
+              <tr>
+                <td>3</td>
+                <td>Mark</td>
+                <td>P</td>
+              </tr>
             </table>
           </div>
         </div>
