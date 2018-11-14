@@ -1,0 +1,38 @@
+.mainSec {
+  padding-top: 15px;
+}
+
+.topSec {
+  /* border: 1px solid silver; */
+}
+
+.bottomSec {
+  border-top: 1px solid silver;
+  padding-top: 15px;
+}
+
+.topSec > div {
+  width: 500px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  border-bottom: 1px solid silver;
+  padding-bottom: 15px;
+  margin-bottom: 15px;
+}
+
+.selectSec {
+  display: inline-block;
+  /* width:  */
+}
+
+.selectSec > input {
+  vertical-align: middle;
+  margin-top: 0px;
+  margin-left: 10px;
+}
+
+@media (max-width: 768px) {
+  .topSec > div {
+    width: 100%;
+  }
+}

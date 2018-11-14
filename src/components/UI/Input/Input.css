@@ -6,7 +6,7 @@
 
 .label {
   font-weight: bold;
-  display: block;
+  display: inline;
   margin-bottom: 8px;
 }
 
@@ -16,8 +16,7 @@
   background-color: white;
   padding: 6px 10px;
   font:inherit;
-  display: block;
-  width: 100%;
+  display: inline;
   -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
   -moz-box-sizing: border-box;    /* Firefox, other Gecko */
   box-sizing: border-box;

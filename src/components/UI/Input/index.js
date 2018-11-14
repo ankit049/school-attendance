@@ -17,8 +17,8 @@ const Input = (props) => {
     validationError = <p className={classes.validationError}>Please enter a valid {props.valueType} </p>;
   }
 
-  switch (props.elementType) {
-    case ('input'):
+  switch (props.inputType) {
+    case ('date'):
       inputElement = <input
         className={inputClasses.join(' ')}
         value={props.value}

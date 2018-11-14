@@ -4,13 +4,16 @@
   position: fixed;
   top: 0;
   left: 0;
-  background: #703b09;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+  background: #0f2b3c;
   padding: 0px 20px;
   box-sizing: border-box;
   z-index: 90;
+}
+
+.headerContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .toolbar nav {

@@ -9,9 +9,8 @@
 
 @media (min-width: 768px) {
   .logo {
-    background: #fff;
     padding: 8px;
-    width: 60px;
+    width: 40px;
   }
 
   .logo img {
