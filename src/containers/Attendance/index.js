@@ -44,13 +44,14 @@ class Attendance extends React.Component {
           <div className={classes.bottomSec}>
             <table>
               <tr>
+                <th>SN</th>
                 <th>Name</th>
-                <th colspan="2">Telephone</th>
+                <th>Attendance</th>
               </tr>
               <tr>
-                <td>Bill Gates</td>
-                <td>55577854</td>
-                <td>55577855</td>
+                <td>1</td>
+                <td>Ankit</td>
+                <td>P</td>
               </tr>
             </table>
           </div>
